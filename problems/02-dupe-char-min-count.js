@@ -16,11 +16,7 @@ function countCharacters(string) {
 }
 
 function duplicateCharMinCount(string, minCount) {
-	const count = countCharacters(string);
-
-	const chars = Object.keys(count);
-
-	return chars.filter((char) => count[char] >= minCount);
+	// Your code here
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
