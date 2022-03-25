@@ -13,10 +13,14 @@ duplicateCharMinCount("What about a longer string?", 3) // ["a", "t", " "]
 
 function countCharacters(string) {
 	// Your code here
+
+
 }
 
 function duplicateCharMinCount(string, minCount) {
 	// Your code here
+
+
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
