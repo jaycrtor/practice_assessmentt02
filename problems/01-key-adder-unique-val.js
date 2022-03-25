@@ -15,6 +15,20 @@ console.log(cat); // { name: "Willie", color: "orange", toy: "yarn" }
 
 function keyAdderUniqueVal(object, key, value) {
 	// Your code here
+	let objectHasValue = false
+	//iterate through all values
+	for (let key in object) {
+		if (object[key] === value) {
+			objectHasValue = true
+		}
+	}
+
+	//if value does not exist, add key value
+	if (!objectHasValue) {
+		object[key] = value
+	}
+
+	return object
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
